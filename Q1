@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+int n=0;
+int arr[100];
+ void create();
+ void display();
+ void delete1(int x);
+ void insert(int x);
+ void  ls();
+ int aa=0;
+
+int main() {
+
+    int c;
+    int bb=1;
+    while(bb==1){
+        cout<<"Which function you want to use:- "<<endl;
+        cout<<"1.Create"<<endl;
+        cout<<"2.Display"<<endl;
+        cout<<"3.Insert"<<endl;
+        cout<<"4.Delete"<<endl;
+        cout<<"5.Linear Search"<<endl;
+        cout<<"6.Exit"<<endl;
