@@ -1,8 +1,7 @@
 #include <iostream>
 #include <queue>
 using namespace std;
-//Write a program interleave the first half of the queue with second half.
-//Sample I/P: 4 7 11 20 5 9 Sample O/P: 4 20 7 5 11 9
+
 int main() {
     queue<int>q;
    int n;
@@ -18,7 +17,7 @@ int main() {
    queue<int>newq;
    for(int i=0;i<halfn;i++){
     newq.push(q.front());
-    q.pop();// due to this , it happens
+    q.pop();
    }
    
    while(!newq.empty()){
@@ -29,3 +28,4 @@ int main() {
    }
     return 0;
 }
+
