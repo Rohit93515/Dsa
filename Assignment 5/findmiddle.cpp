@@ -1,4 +1,3 @@
-//Linked List :  1->2->1->2->1->3->1 , key:  1
 #include <iostream>
 using namespace std;
 
@@ -111,3 +110,4 @@ newList.findmiddle();
     newList.printLL();
     return 0;
 }
+
