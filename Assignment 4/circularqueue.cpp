@@ -56,7 +56,7 @@ queue dequeue(queue Q){
     else if(Q.front==Q.rear){
         Q.front==Q.rear==-1;
     }
-    else{// no need to return the front value
+    else{
         Q.front = (Q.front+1)%MAXLEN;
     }
     return Q;
@@ -89,4 +89,5 @@ int main(){
     }
 
     return 0;
+
 }
