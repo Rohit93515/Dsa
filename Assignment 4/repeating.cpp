@@ -1,5 +1,3 @@
-//Write a program to find first non-repeating character in a string using Queue. Sample I/P: a a
-//b c Sample O/P: a -1 b b
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -15,7 +13,6 @@ int main(){
             q.pop();
         }
         if(q.empty()){
-            //q.push(-1);
             cout<<"-1 ";
         }
         else{
@@ -23,4 +20,5 @@ int main(){
         }
     }
   return 0;
+
 }
