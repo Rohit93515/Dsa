@@ -2,7 +2,7 @@
 #define MAXLEN 5
 using namespace std; 
 
-typedef struct{// no structure  only struct
+typedef struct{
     int element[MAXLEN];
     int top;
 }stack;
@@ -73,4 +73,5 @@ int main(){
     cout<<"with top ="<<top(S);
     
     return 0;
+
 }
