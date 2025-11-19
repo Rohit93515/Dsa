@@ -124,16 +124,13 @@ public:
 };
 int main()
 {
-   // Node *head = new Node(5);
-
     LinkedList newList;
-    newList.insertatbeg(10);
-    newList.insertatend(50);
-    // 10,5,50
+    newList.insertatbeg(16);
+    newList.insertatend(58);
+  
     newList.insertaftervalue(35, 50);
-    //newList.printLL();
-    //newList.deleteNode(50);
     cout<<endl;
      newList.searchnode(50);
     newList.printLL();
+
 }
