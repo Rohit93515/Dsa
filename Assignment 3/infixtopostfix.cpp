@@ -1,4 +1,4 @@
-#include<bits/stdc++.h>
+#include<iostream>
 using namespace std;
 
 int priority(char ch){
@@ -14,7 +14,7 @@ int priority(char ch){
    else return -1;
 }
 int main(){
-    string  s;//infix;
+    string  s;
     cin>>s;
     string ans = "";
     stack<char>st;
@@ -63,4 +63,5 @@ int main(){
 
 
     return 0;
+
 }
